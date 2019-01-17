@@ -9,6 +9,7 @@ updateObjectWithKeyAndValue(recipes, 'chocolate', '1 cup');
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
     Object.assign({}, obj, { [key]: value });
-  return recipes
+  return recipes;
 }
 
+destructivelyUpdateObjectWithKeyAndValue(recipes, 'flour', '2 cups');
