@@ -8,6 +8,6 @@ const recipes = { eggs: 1 };
 updateObjectWithKeyAndValue(recipes, 'chocolate', '1 cup');
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  recipes.eggs = 2;
+    return Object.assign({}, obj, { [key]: value });
   return recipes
 }
