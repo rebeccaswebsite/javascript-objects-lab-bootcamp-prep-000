@@ -10,4 +10,3 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipes, 'flour', '2 cups');
